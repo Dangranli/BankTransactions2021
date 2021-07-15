@@ -1,0 +1,9 @@
+package com.assignment.BankTransations;
+
+
+import java.util.List;
+
+public interface BankDAO {
+    public List<User> getAllUsers();
+    public  User getUser(int )
+}
