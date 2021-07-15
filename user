@@ -1,0 +1,40 @@
+package com.assignment.BankTransations;
+
+public class User {
+    private  String name;
+    private  String email;
+    private  int phoneNum;
+    private int accountNum;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public int getPhoneNum() {
+        return phoneNum;
+    }
+
+    public void setPhoneNum(int phoneNum) {
+        this.phoneNum = phoneNum;
+    }
+
+    public int getAccountNum() {
+        return accountNum;
+    }
+
+    public void setAccountNum(int accountNum) {
+        this.accountNum = accountNum;
+    }
+}
